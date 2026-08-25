@@ -1,0 +1,4 @@
+.DS_Store
+.aggregate-quick/
+__pycache__/
+*.pyc

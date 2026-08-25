@@ -1,0 +1,6 @@
+interface:
+  display_name: "PRDPUT.skill"
+  short_description: "创作者强参与的PRD协作撰写、评审与定稿工作流"
+  default_prompt: "使用 $prdput-skill 与我通过多轮确认共同撰写这个项目的PRD。"
+policy:
+  allow_implicit_invocation: true

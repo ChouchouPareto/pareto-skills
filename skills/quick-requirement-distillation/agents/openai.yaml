@@ -1,0 +1,13 @@
+interface:
+  display_name: 提炼用户需求
+  short_description: 通过精准追问，把模糊想法收敛为五句话以内的清晰需求摘要
+  default_prompt: 使用 $distill-user-requirements 帮我梳理这段想法，并提炼成五句话以内的核心需求。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
