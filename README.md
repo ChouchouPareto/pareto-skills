@@ -11,6 +11,7 @@
 | [`skills/product-analysis`](skills/product-analysis) | `$product-analysis` | 从可观察的界面、交互和产物证据中拆解 AI 产品、Agent 合约和产品架构。 |
 | [`skills/human-writing-standard`](skills/human-writing-standard) | `$human-writing` | 通用中文选题、创作和改稿，强调自然中文节奏与真实思考痕迹。 |
 | [`skills/work-slacking-emergency`](skills/work-slacking-emergency) | `$work-slacking-emergency` | 面向结果未达成、领导催问和工作去留风险的紧急向上沟通。 |
+| [`skills/personal-ip-companion`](skills/personal-ip-companion) | `$personal-ip-companion` | 个人影响力策略、真实素材共创、制作复盘与私有本地记忆接续；不自动发布。 |
 
 ## 仓库结构
 
@@ -22,7 +23,8 @@ pareto-skills/
     ├── quick-requirement-distillation/
     ├── product-analysis/
     ├── human-writing-standard/
-    └── work-slacking-emergency/
+    ├── work-slacking-emergency/
+    └── personal-ip-companion/
 ```
 
 每个 Skill 至少包含一份 `SKILL.md`，并可按需要包含：
@@ -57,6 +59,7 @@ cp -R pareto-skills/skills/prdput-skill ~/.codex/skills/
 - `human-writing-standard`：使用本地保存的完整 1.3.1 标准版，用于补全原 GitHub 仓库中未上传的文件。
 - `product-analysis`：整理自产品拆解项目中的 Skill 目录。
 - `prdput-skill`：基于 AI 产品经理课程资料与创作者强参与原则新建。
+- `personal-ip-companion`：从个人IP策略讨论与公开研究中提炼的通用协作方法。个人资料和实际任务记忆存于仓库外，不随技能发布。
 
 ## License
 

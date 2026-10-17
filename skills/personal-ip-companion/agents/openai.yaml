@@ -1,0 +1,4 @@
+interface:
+  display_name: "个人IP共创与复盘Skill"
+  short_description: "从真实实践到内容表达，协助选题制作、阶段复盘与本地记忆接续"
+  default_prompt: "使用 $personal-ip-companion，读取我指定工作台中的当前状态，和我一起推进本次个人IP工作。"
